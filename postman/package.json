@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "newman run collections/Post-Office.postman_collection.json --reporters cli json --reporter-json-export test-results/outputfile.json",
+    "test": "newman run collections/Post-Office.postman_collection.json --reporters cli,json --reporter-json-export test-results/outputfile.json",
     "start": "node scripts/notify.js"
   },
   "keywords": [],

@@ -9,5 +9,5 @@ cd postman
 ```
 ### Execute collection Runner
 ```
-newman run collections/sample-collection.json --reporters cli json --reporter-json-export test-results/outputfile.json
+newman run collections/sample-collection.json --reporters cli,json --reporter-json-export test-results/outputfile.json
 ```
